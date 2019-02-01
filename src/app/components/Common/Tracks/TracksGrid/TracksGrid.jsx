@@ -3,7 +3,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import classes from './TracksGrid.scss';
 import TrackListItem from '../TracksList/TracksListItem';
-import DragScroll from '../../../Common/DragScroll/DragScroll';
+import DragScroll from '../../DragScroll/DragScroll';
 
 function TracksGrid({ tracks, showArtist, showAlbum, playTrack }) {
   return (
